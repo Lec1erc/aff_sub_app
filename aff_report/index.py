@@ -9,7 +9,7 @@ from main.responser import pull_response
 accounts = "data/accounts.txt"
 app = Flask(__name__)
 CORS(app)
-print ("test")
+
 
 @app.route('/sub_report', methods=(['POST']))
 def affstat():
