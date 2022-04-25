@@ -10,6 +10,7 @@ accounts = "data/accounts.txt"
 app = Flask(__name__)
 CORS(app)
 
+print("Test branch")
 
 @app.route('/sub_report', methods=(['POST']))
 def affstat():
