@@ -6,11 +6,12 @@ from main.report import sub_start, geo_start
 from main.controller import create_user, add_api, delete_api, show_api
 from main.responser import pull_response
 
+print("Test master")
 accounts = "data/accounts.txt"
 app = Flask(__name__)
 CORS(app)
 
-print("Test master")
+
 @app.route('/sub_report', methods=(['POST']))
 def affstat():
     'do report by aff_sub if received token and username == token and username in DB'
