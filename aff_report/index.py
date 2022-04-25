@@ -11,7 +11,7 @@ accounts = "data/accounts.txt"
 app = Flask(__name__)
 CORS(app)
 
-print("New poi")
+print("New ctest")
 print("Test branch")
 print("asdasdasd")
 @app.route('/sub_report', methods=(['POST']))
