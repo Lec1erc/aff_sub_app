@@ -13,7 +13,7 @@ CORS(app)
 
 print("New poi")
 print("Test branch")
-
+print("asdasdasd")
 @app.route('/sub_report', methods=(['POST']))
 def affstat():
     'do report by aff_sub if received token and username == token and username in DB'
